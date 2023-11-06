@@ -1,4 +1,4 @@
-lua'''
+
 local console
 local tests
 local function render_console()
@@ -253,4 +253,4 @@ for i, v in pairs(tests) do
 end
 console.Text = console.Text .."\nCOPIED TO CLIPBOARD! ✅✅✅✅";
 setclipboard(console.Text)
-'''
+
